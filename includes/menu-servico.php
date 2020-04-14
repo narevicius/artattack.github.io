@@ -11,7 +11,7 @@
 
 						</div>
 						<div class="col-10">
-							<h4><a class="elementos-a" href="caracterizacao.php"> Caracterização e <br>Personalização de Frota</a> <br></h4>
+							<h4><a class="elementos-a" href="caracterizacao.html"> Caracterização e <br>Personalização de Frota</a> <br></h4>
 						</div>
 					</div>
 
@@ -26,7 +26,7 @@
 
 						</div>
 						<div class="col-10">
-							<h4><a class="elementos-a" href="envelopamento.php"> Envelopamento de Frota</a> <br></h4>
+							<h4><a class="elementos-a" href="envelopamento.html"> Envelopamento de Frota</a> <br></h4>
 						</div>
 					</div>
 
@@ -43,7 +43,7 @@
 
 						</div>
 						<div class="col-10">
-							<h4><a class="elementos-a" href="descaracterizacao.php"> Descaracterização de Frota e Remoção de Adesivo</a> <br></h4>
+							<h4><a class="elementos-a" href="descaracterizacao.html"> Descaracterização de Frota e Remoção de Adesivo</a> <br></h4>
 						</div>
 					</div>
 
@@ -61,7 +61,7 @@
 
 						</div>
 						<div class="col-10">
-							<h4><a class="elementos-a" href="substituicao.php"> Substituição / Manutenção de adesivos em caso de avarias</a> <br></h4>
+							<h4><a class="elementos-a" href="substituicao.html"> Substituição / Manutenção de adesivos em caso de avarias</a> <br></h4>
 						</div>
 					</div>
 
@@ -79,7 +79,7 @@
 
 						</div>
 						<div class="col-10">
-							<h4><a class="elementos-a" href="ajuste.php"> Ajuste e conferência de layout automotivo</a> <br></h4>
+							<h4><a class="elementos-a" href="ajuste.html"> Ajuste e conferência de layout automotivo</a> <br></h4>
 						</div>
 					</div>
 
@@ -96,7 +96,7 @@
 
 						</div>
 						<div class="col-10">
-							<h4><a class="elementos-a" href="adesivo.php"> Adesivo automotivo impresso, recorte e laminado</a> <br></h4>
+							<h4><a class="elementos-a" href="adesivo.html"> Adesivo automotivo impresso, recorte e laminado</a> <br></h4>
 						</div>
 					</div>
 

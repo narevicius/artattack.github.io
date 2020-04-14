@@ -13,7 +13,7 @@ if ($server == 'localhost'){
 ?>
 <nav class="navbar navbar-expand-sm sticky-top navbar-dark bg-info py-2 navbar-fixed-top">
     <div class="container">
-        <a class="navbar-brand" href="index.php"><img class="logo" src="img/logo.svg"></a>
+        <a class="navbar-brand" href="index.html"><img class="logo" src="img/logo.svg"></a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar1">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -21,17 +21,17 @@ if ($server == 'localhost'){
 
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="index.php">home</a>
+                    <a class="nav-link" href="index.html">home</a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="quemsomos.php">quem somos</a>
+                    <a class="nav-link" href="quemsomos.html">quem somos</a>
                 </li>
 
                
 
                 <li class="nav-item ">
-                    <a class="nav-link" href="servicos.php">serviços </a>
+                    <a class="nav-link" href="servicos.html">serviços </a>
               </li>
 
               <li class="nav-item">
@@ -39,7 +39,7 @@ if ($server == 'localhost'){
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="contato.php">contato</a>
+                <a class="nav-link" href="contato.html">contato</a>
             </li>
         </ul>
     </div>
