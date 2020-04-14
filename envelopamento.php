@@ -73,7 +73,40 @@ a {
 
 <body>
 
-	<?php include('includes/header.php') ?>
+	<nav class="navbar navbar-expand-sm sticky-top navbar-dark bg-info py-2 navbar-fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="index.php"><img class="logo" src="img/logo.svg"></a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar1">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar1">
+
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.php">home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="quemsomos.php">quem somos</a>
+                </li>
+
+               
+
+                <li class="nav-item ">
+                    <a class="nav-link" href="servicos.php">serviços </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">blog</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="contato.php">contato</a>
+            </li>
+        </ul>
+    </div>
+</div>
+</nav>
 
 	<section class="home-banner-area-out">
 		<div class="background-ponto-out">
@@ -157,7 +190,113 @@ Envelopamento </b> <br>de Frota</b><br>
 				</div>
 			</div>
 
-						<?php include('includes/menu-servico.php') ?>
+						<div class="col-4">
+				<div class="col-12">
+					<h2 class="titulos-processos">Serviços</h2> <br>
+
+					<div class="col-12">
+						<hr>
+					</div><br>
+					<div class="row">
+						<div class="col-1">
+							<h1 style="font-size:19px"<b class="separador1">》</b></h1>
+
+						</div>
+						<div class="col-10">
+							<h4><a class="elementos-a" href="caracterizacao.php"> Caracterização e <br>Personalização de Frota</a> <br></h4>
+						</div>
+					</div>
+
+					<div class="col-12">
+						<hr>
+					</div>
+
+
+					<div class="row">
+						<div class="col-1">
+							<h1 style="font-size:19px"><b class="separador2">》</b></h1>
+
+						</div>
+						<div class="col-10">
+							<h4><a class="elementos-a" href="envelopamento.php"> Envelopamento de Frota</a> <br></h4>
+						</div>
+					</div>
+
+
+
+					<div class="col-12">
+						<hr>
+					</div>
+
+
+					<div class="row">
+						<div class="col-1">
+							<h1 style="font-size:19px"><b class="separador3">》</b></h1>
+
+						</div>
+						<div class="col-10">
+							<h4><a class="elementos-a" href="descaracterizacao.php"> Descaracterização de Frota e Remoção de Adesivo</a> <br></h4>
+						</div>
+					</div>
+
+
+
+
+					<div class="col-12">
+						<hr>
+					</div>
+
+
+					<div class="row">
+						<div class="col-1">
+							<h1 style="font-size:19px"><b class="separador1">》</b></h1>
+
+						</div>
+						<div class="col-10">
+							<h4><a class="elementos-a" href="substituicao.php"> Substituição / Manutenção de adesivos em caso de avarias</a> <br></h4>
+						</div>
+					</div>
+
+
+
+
+					<div class="col-12">
+						<hr>
+					</div>
+
+
+					<div class="row">
+						<div class="col-1">
+							<h1 style="font-size:19px"><b class="separador2">》</b></h1>
+
+						</div>
+						<div class="col-10">
+							<h4><a class="elementos-a" href="ajuste.php"> Ajuste e conferência de layout automotivo</a> <br></h4>
+						</div>
+					</div>
+
+
+
+					<div class="col-12">
+						<hr>
+					</div>
+
+
+					<div class="row">
+						<div class="col-1">
+							<h1 style="font-size:19px"><b class="separador3">》</b></h1>
+
+						</div>
+						<div class="col-10">
+							<h4><a class="elementos-a" href="adesivo.php"> Adesivo automotivo impresso, recorte e laminado</a> <br></h4>
+						</div>
+					</div>
+
+
+				</div>
+			</div>
+		</div>
+	</div>
 
 
 
@@ -238,7 +377,41 @@ Envelopamento </b> <br>de Frota</b><br>
 
 
 
-	<?php include('includes/footer.php') ?>
+	<footer class="container-fluid bg-grey py-5 rodape">
+<div class="container">
+   <div class="row">
+      <div class="col-md-4">
+         <div class="row">
+            <div class="col-md-12 ">
+               <div class="logo-part">
+                  
+                  <p class="text-center"> <a href="index.html"><img class="hvr-wobble-vertical" style="width: 18rem;" src="img/logo.svg" alt="" title="" /></a> <br> <br> 
+
+Rua Rodovalho Júnior, 475 - Penha de França, São Paulo - SP</p>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="col-md-8">
+         <div class="row fator-unico">
+         	<div class="col-md-4">
+               <h3 class="contatos"> Telefone</h3><br>
+               <p class="contato-x">(11) 11 2289-1026</p>
+            </div>
+            <div class="col-md-4">
+               <h3 class="contatos"> Whatsapp</h3><br>
+               <p class="contato-x">(11) 95047-8218</p>
+            </div>
+            <div class="col-md-4">
+               <h3 class="contatos"> E-mail</h3><br>
+               <p class="contato-x">contato@artattackpd.com.br</p>
+            </div>
+           
+         </div>
+      </div>
+   </div>
+</div>
+</footer>
 
 		<script>
 		$(function () {
