@@ -4121,3 +4121,52 @@ textarea {
 .contatos {
     color: #eb008b;
 }
+a {
+    color: #a0a0a0;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+.contato-x {
+    font-size: 17px!important;
+    color: #868686;
+}
+.contatos {
+    color: #fab41f;
+}
+
+
+.tamanho-logoss {
+    width: 7rem;
+    margin-bottom: 1rem;
+}
+
+.area-branca .area-caixa {
+    box-shadow: 0px 20px 50px rgba(153, 153, 153, 0.2);
+    background: #f9f9f9;
+}
+
+.ghj {
+    font-size: 1.1rem;
+    color: #4f4f4f;
+    margin-bottom: 0;
+    line-height: 1.4!important;
+    font-weight: 500;
+    font-family: "Poppins";
+    letter-spacing: inherit;
+}
+
+.fator-unico {
+    text-align: center;
+    margin: 45px 0;
+    padding: 7px 105px;
+    border-right: 1px solid #ddd;
+}
+
+.fator-unicoo {
+    text-align: center;
+    margin: 45px 0;
+    padding: 7px 45px;
+    border-right: 1px solid #ddd;
+}
+

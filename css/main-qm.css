@@ -4251,3 +4251,13 @@ svg > rect {
 .separador3{
   color: #f5ea00;
 }
+a {
+    color: #a0a0a0;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+.contato-x {
+    font-size: 17px!important;
+    color: #868686;
+}
