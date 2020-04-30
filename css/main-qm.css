@@ -3802,7 +3802,7 @@ div.circle a:hover:after {
 }
 .foto-qmsomos {
     margin: 0;
-    height: 165px;
+    height: 250px;
     margin-bottom: 0px;
     object-fit: cover;
 }
@@ -4260,4 +4260,15 @@ a {
 .contato-x {
     font-size: 17px!important;
     color: #868686;
+}
+.hnm {
+    font-size: 1.3rem;
+    margin-bottom: 17px;
+    line-height: 1.6;
+    letter-spacing: 0px;
+    font-family: 'Raleway', sans-serif;
+    text-align: left;
+    margin-left: 0rem;
+    padding-right: 1rem;
+    margin-top: -9px;
 }
