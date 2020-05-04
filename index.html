@@ -14,174 +14,258 @@
 
 	<meta charset="UTF-8">
 	<meta name="description" content="A HiPartners Capital&Work é um grupo de empresários focado em empresas inovadoras com alto potencial de crescimento no setor de Tecnologia e Internet. Visite nosso site e saiba mais.">
-      <meta name="author" content="HiPartners">
+	<meta name="author" content="HiPartners">
 
 	<title>art attack -  caracterização de frotas</title>
 
 	<link href="https://fonts.googleapis.com/css?family=Poppins:400,600|Roboto:400,400i,500" rel="stylesheet">
-<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+	<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" href="css/linearicons.css">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js">
 	<link href="css/hover.css" rel="stylesheet" media="all">
 	<link rel="icon" type="image/png" href="img/fav.png" />
+	<script src="https://kit.fontawesome.com/ec0f95ce9f.js" crossorigin="anonymous"></script>
 	<script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
 </head>
 <style>
 @font-face {
-  font-family: Biko;
-  src:url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/biko-black.woff");
+	font-family: Biko;
+	src:url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/biko-black.woff");
 }
 
 header { 
-  width: 100%;
-  margin: 0 auto;
-  position: relative;
-  max-width: 1200px;
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+	max-width: 1200px;
 }
 header video { width: 100%; }
 svg { 
-  width: 100%;
-  position:absolute;
-  top: 0;
-  left: 0; 
-  height: 100%;
+	width: 100%;
+	position:absolute;
+	top: 0;
+	left: 0; 
+	height: 100%;
 }
 svg text {
-  font-family: Biko, sans-serif;
-  font-weight: 700;
-  text-transform: uppercase;
-  font-size: 38px;
+	font-family: Biko, sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 38px;
 }
 svg rect {
-  fill: white;
+	fill: white;
 }
 svg > rect {
-    -webkit-mask: url(#mask);
-    mask: url(#mask);
+	-webkit-mask: url(#mask);
+	mask: url(#mask);
 }
 #mc_embed_signup {
-    background: #fff0;
-    clear: left;
-    border: 1px solid gray;
-    font: 14px Helvetica,Arial,sans-serif;
-    padding: 1rem;
-    padding-right: 2rem;
+	background: #fff0;
+	clear: left;
+	border: 1px solid gray;
+	font: 14px Helvetica,Arial,sans-serif;
+	padding: 1rem;
+	padding-right: 2rem;
 }
 #mc_embed_signup .mc-field-group input {
-    display: block;
-    width: 100%;
-    height: 55px;
-    padding: 8px 0;
-    text-indent: 2%;
+	display: block;
+	width: 100%;
+	height: 55px;
+	padding: 8px 0;
+	text-indent: 2%;
 }
 #mc_embed_signup .asterisk {
-    color: #e85c41;
-    font-size: 100%;
-    font-weight: normal;
-    position: relative;
-    top: 4px;
+	color: #e85c41;
+	font-size: 100%;
+	font-weight: normal;
+	position: relative;
+	top: 4px;
 }
 #mc_embed_signup .size1of2 {
-    clear: none;
-    float: left;
-    display: inline-block;
-    width: 46%;
-    margin-right: 0%;
+	clear: none;
+	float: left;
+	display: inline-block;
+	width: 46%;
+	margin-right: 0%;
 }
 #mc_embed_signup .mc-field-group label {
-    color: white;
-    display: block;
-    font-size: 1.3rem;
-    margin-bottom: 3px;
+	color: white;
+	display: block;
+	font-size: 1.3rem;
+	margin-bottom: 3px;
 }
 
 
 }
 .front {
-    margin-left: -2rem;
-    width: 82%!important;
+	margin-left: -2rem;
+	width: 82%!important;
 }
 .whatsapp-fixo img {
-    width: 20px;
-    height: 20px;
+	width: 20px;
+	height: 20px;
 }
 .whatsapp-fixo span {
-    font-size: 14px;
-    color: #fff;
-    white-space: nowrap;
-    cursor: pointer;
-    padding: 5px;
+	font-size: 14px;
+	color: #fff;
+	white-space: nowrap;
+	cursor: pointer;
+	padding: 5px;
 }
 .whatsapp-fixo {
-    background-color: #0dc152;
-    color: rgba(255, 255, 255, 1);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 40px;
-    white-space: nowrap;
-    line-height: 100%;
-    padding: 12px 20px;
-    border-radius: 50px;
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    cursor: pointer;
-    box-shadow: 0 1px 6px rgba(0, 0, 0, .06), 0 2px 32px rgba(0, 0, 0, .16);
-    transition: box-shadow 80ms ease-in-out,width .4s ease .2s;
-    z-index: 999;
+	background-color: #0dc152;
+	color: rgba(255, 255, 255, 1);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 40px;
+	white-space: nowrap;
+	line-height: 100%;
+	padding: 12px 20px;
+	border-radius: 50px;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	cursor: pointer;
+	box-shadow: 0 1px 6px rgba(0, 0, 0, .06), 0 2px 32px rgba(0, 0, 0, .16);
+	transition: box-shadow 80ms ease-in-out,width .4s ease .2s;
+	z-index: 999;
 }
 
+.carousel-multi-item .carousel-indicators .active {
+	height: 1.56rem;
+	width: 1.56rem;
+	max-width: 1.56rem;
+	background-color: #4285f4;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+}
+.carousel-multi-item .carousel-indicators li {
+	height: 1.25rem;
+	width: 1.25rem;
+	max-width: 1.25rem;
+	background-color: #4285f4;
+	margin-bottom: -3.75rem;
+}
+
+.carousel-indicators li {
+	box-sizing: content-box;
+	-ms-flex: 0 1 auto;
+	flex: 0 1 auto;
+	width: 30px;
+	height: 3px;
+	margin-right: 3px;
+	margin-left: 3px;
+	text-indent: -999px;
+	cursor: pointer;
+	background-color: #fff;
+	background-clip: padding-box;
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+	opacity: .5;
+	transition: opacity .6s ease;
+}
+.btn-floating i {
+	font-size: 1.25rem;
+	line-height: 47px;
+	display: inline-block;
+	width: inherit;
+	text-align: center;
+	color: #fff;
+}
+.carousel-multi-item .controls-top .btn-floating {
+	background: #4871b5;
+}
+.btn-floating i {
+	font-size: 4rem;
+	line-height: 47px;
+	display: inline-block;
+	width: inherit;
+	margin: 1rem 2rem;
+	text-align: center;
+	color: #00adee;
+}
+.carousel-multi-item .controls-top .btn-floating {
+	background: #f9f9f900;
+	margin-bottom: -2rem;
+	/* margin-top: 1rem; */
+}
+.carousel-indicators {
+	position: absolute;
+	right: 0;
+	bottom: -12px;
+	left: 0;
+	z-index: 15;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: center;
+	justify-content: center;
+	padding-left: 0;
+	margin-right: 15%;
+	margin-left: 15%;
+	list-style: none;
+}
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+    background: #fcfeff;
+    border: 1px solid #e8e8e8;
+    border-right: none;
+    border-left: none;
+}
 </style>
 
 
 <body>
 
-<nav class="navbar navbar-expand-sm sticky-top navbar-dark bg-info py-2 navbar-fixed-top">
-    <div class="container">
-        <a class="navbar-brand" href="index.html"><img class="logo" src="img/logo.svg"></a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar1">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbar1">
+	<nav class="navbar navbar-expand-sm sticky-top navbar-dark bg-info py-2 navbar-fixed-top">
+		<div class="container">
+			<a class="navbar-brand" href="index.html"><img class="logo" src="img/logo.svg"></a>
+			<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar1">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbar1">
 
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">home</a>
-                </li>
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">home</a>
+					</li>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="quemsomos.html">quem somos</a>
-                </li>
-
-               
-
-                <li class="nav-item ">
-                    <a class="nav-link" href="servicos.html">serviços </a>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link" href="#">blog</a>
-            </li>
-
-            <li class="nav-item">
-                <a class="nav-link" href="contato.html">contato</a>
-            </li>
-        </ul>
-    </div>
-</div>
-</nav>
+					<li class="nav-item">
+						<a class="nav-link" href="quemsomos.html">quem somos</a>
+					</li>
 
 
-<a target="_blank" href="https://api.whatsapp.com/send?phone=5511950478218&amp;text=Ol%C3%A1%20vim%20pelo%20site!">
-        <div class="whatsapp-fixo">
-            <img src="img/whatsapp-white.png" alt="">
-            <span>Atendimento via WhatsApp</span>
-        </div>
-    </a>
+
+					<li class="nav-item ">
+						<a class="nav-link" href="servicos.html">serviços </a>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link" href="#">blog</a>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link" href="contato.html">contato</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+
+	<a target="_blank" href="https://api.whatsapp.com/send?phone=5511950478218&amp;text=Ol%C3%A1%20vim%20pelo%20site!">
+		<div class="whatsapp-fixo">
+			<img src="img/whatsapp-white.png" alt="">
+			<span>Atendimento via WhatsApp</span>
+		</div>
+	</a>
 
 
 	<section class="home-banner-area">
@@ -204,38 +288,38 @@ svg > rect {
 	</section >
 
 
-	</section> 
+</section> 
 
-	<section  id="sobre" class="caixa-vazia section-gap-top">
-		<div class="container">
-			<div style="margin: 0;" class="row d-flex justify-content-center">
+<section  id="sobre" class="caixa-vazia section-gap-top">
+	<div class="container">
+		<div style="margin: 0;" class="row d-flex justify-content-center">
 
-				<div class="col-12">
-					<div class="section-title text-center">
-						<span class="c-line-ln" style="transform: matrix(1, 0, 0, 1, 0, 0);"></span><h2 style="color: #3e3e3e;font-size: 4.8rem;"><b class="strok">quem </b> é a <br><b style="font-size: 5.8rem;" class="titulo-grande">art attack </b> </h2> <br>
-					</div>
+			<div class="col-12">
+				<div class="section-title text-center">
+					<span class="c-line-ln" style="transform: matrix(1, 0, 0, 1, 0, 0);"></span><h2 style="color: #3e3e3e;font-size: 4.8rem;"><b class="strok">quem </b> é a <br><b style="font-size: 5.8rem;" class="titulo-grande">art attack </b> </h2> <br>
 				</div>
+			</div>
 
-				<div class="col-lg-12">
-					<div class="row">
+			<div class="col-lg-12">
+				<div class="row">
 					<div class="col-6">
 
 						<div class="section-title ">
 							<p>Nós da trouxemos um conceito inovador ao mercado frotista a partir das melhores referências mundiais. <br> Em constante reciclagem de conhecimento, atualmente provemos a tecnologia como ferramenta valiosa para a eficiência dos processos com soluções ponta-a-ponta, desde a criação do projeto até sua plena execução. <br><br> Essa eficiência proporcionou um alto grau de confiabilidade associado à Art Attack P.D. pelos diversos projetos executados com excelência e consequentes clientes satisfeitos.</b>
 
-							<a href="quemsomos.html"><button class="btn styl-bot">
-								Conhecer nosso trabalho
-							</button></a>
-						</p>
+								<a href="quemsomos.html"><button class="btn styl-bot">
+									Conhecer nosso trabalho
+								</button></a>
+							</p>
 						</div>
 
 					</div>
 
-						<div class="col-6">
-							<div style="margin: 1rem 0rem; padding: 0;" class="col-12">
-								<img style="width:100%" src="https://images.squarespace-cdn.com/content/v1/58af4657be659461bb783b00/1582582521333-RDZA30DR24XXCTVNFBQT/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/TWI2.jpg?format=1500w" alt="">
-							</div>
-							<div class="row">
+					<div class="col-6">
+						<div style="margin: 1rem 0rem; padding: 0;" class="col-12">
+							<img style="width:100%" src="https://images.squarespace-cdn.com/content/v1/58af4657be659461bb783b00/1582582521333-RDZA30DR24XXCTVNFBQT/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/TWI2.jpg?format=1500w" alt="">
+						</div>
+						<div class="row">
 							<div  class="col-6 pr-2">
 								<img class="foto-qmsomos" style="width:100%" src="https://images.squarespace-cdn.com/content/v1/58af4657be659461bb783b00/1582581266360-L0WPO84I573FMZLTFNIA/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/TWI9.jpg" alt="">
 							</div>
@@ -246,7 +330,7 @@ svg > rect {
 
 					</div>
 
-					</div>
+				</div>
 				
 
 			</div>
@@ -266,10 +350,10 @@ svg > rect {
 				<div class="col-lg-12">
 					<div class="section-titlee text-center">
 						<div class="section-title2 text-center">
-								
-								<h2>nossos serviços </h2> <br>
-								<h4 class="hashtag"><b class="cor-hash">#</b>FULLSERVICE</h4>
-								<span  class="c-line-lnn" style="transform: matrix(1, 0, 0, 1, 0, 0);"></span>
+
+							<h2>nossos serviços </h2> <br>
+							<h4 class="hashtag"><b class="cor-hash">#</b>FULLSERVICE</h4>
+							<span  class="c-line-lnn" style="transform: matrix(1, 0, 0, 1, 0, 0);"></span>
 						</div>
 
 						<div class="row">
@@ -283,504 +367,644 @@ svg > rect {
 										<div class="col-md-12 col-xs-8">
 											<div class="section-titlee ">
 												<p>Caracterização, <br>
-envelopamento e <br>
-personalização de frota</b></p>
+													envelopamento e <br>
+													personalização de frota</b></p>
+												</div>
 											</div>
 										</div>
-									</div>
 
-									<div class="back ">
-										
-										<div class="col-md-12 col-xs-8">
-											<div class="section-titleee ">
-												<p>
-													A partir de componentes visuais como imagens, desenhos, gráficos e outros elementos, expressamos em seu veículo o tipo de trabalho que é executado pela sua empresa, facilitando o reconhecimento de sua marca e serviços.</b>
-													<a href="caracterizacao.html"><button class="btn styl-bott">
-														saber mais
-													</button></a>
-												</p>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
+										<div class="back ">
 
-
-
-							<div class="col-md-4 col-xs-12 s2 flip-container">  
-								<div class="row mg-left-15 flipper">
-									<div class="front justify-content-center">
-										<div class="col-md-12 col-xs-4 ">
-											<img class="tip-serv" src="img/icones/sv-3.png" alt=""> 
-										</div>
-										<div class="col-md-12 col-xs-8">
-											<div class="section-titlee ">
-												<p>Adesivo <br>refletivo</p>
-											</div>
-										</div>
-									</div>
-
-									<div class="back ">
-										
-										<div class="col-md-12 col-xs-8">
-											<div class="section-titleee ">
-												<p>
-													A partir de componentes visuais como imagens, desenhos, gráficos e outros elementos, expressamos em seu veículo o tipo de trabalho que é executado pela sua empresa, facilitando o reconhecimento de sua marca e serviços.</b>
-													<a href="envelopamento.html"><button class="btn styl-bott">
-														saber mais
-													</button></a>
-												</p>
+											<div class="col-md-12 col-xs-8">
+												<div class="section-titleee ">
+													<p>
+														A partir de componentes visuais como imagens, desenhos, gráficos e outros elementos, expressamos em seu veículo o tipo de trabalho que é executado pela sua empresa, facilitando o reconhecimento de sua marca e serviços.</b>
+														<a href="caracterizacao.html"><button class="btn styl-bott">
+															saber mais
+														</button></a>
+													</p>
+												</div>
 											</div>
 										</div>
 									</div>
 								</div>
-							</div>
-
-							
 
 
-							<div class="col-md-4 col-xs-12 s2 flip-container">  
-								<div class="row mg-left-15 flipper">
-									<div class="front">
-										<div class="col-md-12 col-xs-4 ">
-											<img class="tip-serv" src="img/icones/sv-2.png" alt=""> 
-										</div>
-										<div class="col-md-12 col-xs-8">
-											<div class="section-titlee ">
-												<p>Substituição e Manutenção de <br> adesivos </b></p>
-												
+
+								<div class="col-md-4 col-xs-12 s2 flip-container">  
+									<div class="row mg-left-15 flipper">
+										<div class="front justify-content-center">
+											<div class="col-md-12 col-xs-4 ">
+												<img class="tip-serv" src="img/icones/sv-3.png" alt=""> 
+											</div>
+											<div class="col-md-12 col-xs-8">
+												<div class="section-titlee ">
+													<p>Adesivo <br>refletivo</p>
+												</div>
 											</div>
 										</div>
-									</div>
 
-									<div class="back ">
-										
-										<div class="col-md-12 col-xs-8">
-											<div class="section-titleee ">
-												<p>
-													A partir de componentes visuais como imagens, desenhos, gráficos e outros elementos, expressamos em seu veículo o tipo de trabalho que é executado pela sua empresa, facilitando o reconhecimento de sua marca e serviços.</b>
-													<a href="substituicao.html"><button class="btn styl-bott">
-														saber mais
-													</button></a>
-												</p>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
+										<div class="back ">
 
-
-							<div class="col-md-4 col-xs-12 s2 flip-container">  
-								<div class="row mg-left-15 flipper">
-									<div class="front">
-										<div class="col-md-12 col-xs-4 ">
-											<img class="tip-serv" src="img/icones/sv-4.png" alt=""> 
-										</div>
-										<div class="col-md-12 col-xs-8">
-											<div class="section-titlee ">
-												<p>Ajuste e conferência <br> de layout automotivo</b></p>
-											</div>
-										</div>
-									</div>
-
-									<div class="back ">
-										
-										<div class="col-md-12 col-xs-8">
-											<div class="section-titleee ">
-												<p>
-													A partir de componentes visuais como imagens, desenhos, gráficos e outros elementos, expressamos em seu veículo o tipo de trabalho que é executado pela sua empresa, facilitando o reconhecimento de sua marca e serviços.</b>
-													<a href="ajuste.html"><button class="btn styl-bott">
-														saber mais
-													</button></a>
-												</p>
+											<div class="col-md-12 col-xs-8">
+												<div class="section-titleee ">
+													<p>
+														A partir de componentes visuais como imagens, desenhos, gráficos e outros elementos, expressamos em seu veículo o tipo de trabalho que é executado pela sua empresa, facilitando o reconhecimento de sua marca e serviços.</b>
+														<a href="envelopamento.html"><button class="btn styl-bott">
+															saber mais
+														</button></a>
+													</p>
+												</div>
 											</div>
 										</div>
 									</div>
 								</div>
-							</div>
 
 
-							<div class="col-md-4 col-xs-12 s2 flip-container">  
-								<div class="row mg-left-15 flipper">
-									<div class="front">
-										<div class="col-md-12 col-xs-4 ">
-											<img class="tip-serv" src="img/icones/sv-6.png" alt=""> 
-										</div>
-										<div class="col-md-12 col-xs-8">
-											<div class="section-titlee ">
-												<p>Adesivo impresso, <br> recorte e laminado</b></p>
+
+
+								<div class="col-md-4 col-xs-12 s2 flip-container">  
+									<div class="row mg-left-15 flipper">
+										<div class="front">
+											<div class="col-md-12 col-xs-4 ">
+												<img class="tip-serv" src="img/icones/sv-2.png" alt=""> 
+											</div>
+											<div class="col-md-12 col-xs-8">
+												<div class="section-titlee ">
+													<p>Substituição e Manutenção de <br> adesivos </b></p>
+
+												</div>
 											</div>
 										</div>
-									</div>
 
-									<div class="back ">
+										<div class="back ">
 
-										<div class="col-md-12 col-xs-8">
-											<div class="section-titleee ">
-												<p>
-													A partir de componentes visuais como imagens, desenhos, gráficos e outros elementos, expressamos em seu veículo o tipo de trabalho que é executado pela sua empresa, facilitando o reconhecimento de sua marca e serviços.</b>
-													<a href="adesivo.html"><button class="btn styl-bott">
-														saber mais
-													</button></a>
-												</p>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-
-
-							<div class="col-md-4 col-xs-12 s2 flip-container">  
-								<div class="row mg-left-15 flipper">
-									<div class="front">
-										<div class="col-md-12 col-xs-4 ">
-											<img class="tip-serv" src="img/icones/sv-5.png" alt=""> 
-										</div>
-										<div class="col-md-12 col-xs-8">
-											<div class="section-titlee ">
-												<p>Descaracterização de Frota  e Remoção de Adesivo</b></p>
-											</div>
-										</div>
-									</div>
-
-									<div class="back ">
-										
-										<div class="col-md-12 col-xs-8">
-											<div class="section-titleee ">
-												<p>
-													A partir de componentes visuais como imagens, desenhos, gráficos e outros elementos, expressamos em seu veículo o tipo de trabalho que é executado pela sua empresa, facilitando o reconhecimento de sua marca e serviços.</b>
-													<a href="descaracterizacao.html"><button class="btn styl-bott">
-														saber mais
-													</button></a>
-												</p>
+											<div class="col-md-12 col-xs-8">
+												<div class="section-titleee ">
+													<p>
+														A partir de componentes visuais como imagens, desenhos, gráficos e outros elementos, expressamos em seu veículo o tipo de trabalho que é executado pela sua empresa, facilitando o reconhecimento de sua marca e serviços.</b>
+														<a href="substituicao.html"><button class="btn styl-bott">
+															saber mais
+														</button></a>
+													</p>
+												</div>
 											</div>
 										</div>
 									</div>
 								</div>
+
+
+								<div class="col-md-4 col-xs-12 s2 flip-container">  
+									<div class="row mg-left-15 flipper">
+										<div class="front">
+											<div class="col-md-12 col-xs-4 ">
+												<img class="tip-serv" src="img/icones/sv-4.png" alt=""> 
+											</div>
+											<div class="col-md-12 col-xs-8">
+												<div class="section-titlee ">
+													<p>Ajuste e conferência <br> de layout automotivo</b></p>
+												</div>
+											</div>
+										</div>
+
+										<div class="back ">
+
+											<div class="col-md-12 col-xs-8">
+												<div class="section-titleee ">
+													<p>
+														A partir de componentes visuais como imagens, desenhos, gráficos e outros elementos, expressamos em seu veículo o tipo de trabalho que é executado pela sua empresa, facilitando o reconhecimento de sua marca e serviços.</b>
+														<a href="ajuste.html"><button class="btn styl-bott">
+															saber mais
+														</button></a>
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+
+								<div class="col-md-4 col-xs-12 s2 flip-container">  
+									<div class="row mg-left-15 flipper">
+										<div class="front">
+											<div class="col-md-12 col-xs-4 ">
+												<img class="tip-serv" src="img/icones/sv-6.png" alt=""> 
+											</div>
+											<div class="col-md-12 col-xs-8">
+												<div class="section-titlee ">
+													<p>Adesivo impresso, <br> recorte e laminado</b></p>
+												</div>
+											</div>
+										</div>
+
+										<div class="back ">
+
+											<div class="col-md-12 col-xs-8">
+												<div class="section-titleee ">
+													<p>
+														A partir de componentes visuais como imagens, desenhos, gráficos e outros elementos, expressamos em seu veículo o tipo de trabalho que é executado pela sua empresa, facilitando o reconhecimento de sua marca e serviços.</b>
+														<a href="adesivo.html"><button class="btn styl-bott">
+															saber mais
+														</button></a>
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+
+								<div class="col-md-4 col-xs-12 s2 flip-container">  
+									<div class="row mg-left-15 flipper">
+										<div class="front">
+											<div class="col-md-12 col-xs-4 ">
+												<img class="tip-serv" src="img/icones/sv-5.png" alt=""> 
+											</div>
+											<div class="col-md-12 col-xs-8">
+												<div class="section-titlee ">
+													<p>Descaracterização de Frota  e Remoção de Adesivo</b></p>
+												</div>
+											</div>
+										</div>
+
+										<div class="back ">
+
+											<div class="col-md-12 col-xs-8">
+												<div class="section-titleee ">
+													<p>
+														A partir de componentes visuais como imagens, desenhos, gráficos e outros elementos, expressamos em seu veículo o tipo de trabalho que é executado pela sua empresa, facilitando o reconhecimento de sua marca e serviços.</b>
+														<a href="descaracterizacao.html"><button class="btn styl-bott">
+															saber mais
+														</button></a>
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+
+
+
 							</div>
-
-
-
 
 						</div>
-
 					</div>
 				</div>
 			</div>
-		</div>
-	</section>
+		</section>
 
 
 
 
 
 
-	<section  style="background: #f9f9f9; padding-bottom: 5rem;" id="sobre" class="caixa-vazia section-gap-top">
-		<div class="container">
-			<div style="margin: 0;" class="row d-flex justify-content-center">
+		<section  style="background: #f9f9f9; padding-bottom: 5rem;" id="sobre" class="caixa-vazia section-gap-top">
+			<div class="container">
+				<div style="margin: 0;" class="row d-flex justify-content-center">
 
-				<div class="col-12">
-					<div style="margin-bottom: 0px;" class="section-title text-center">
-						<span class="c-line-llnn" style="transform: matrix(1, 0, 0, 1, 0, 0);font-size: 4.8rem;    width: 10.3125rem;"></span><h2 style="color: #3e3e3e; font-size: 4.8rem;">porque personalizar <br>a <b class="strok">sua frota </b><br><b style="font-size: 4.8rem;" class="titulo-grande"></b> </h2> <br>
-					</div>
-				</div>
-
-				<section style="width: 100%; " class="area-branca">
-					<div class="container">
-						<div style="padding-bottom: 2rem;padding-top: 2rem;" class="area-caixa">
-							<div style="margin: 0;" class="row align-items-center circle">
-								<div style="border-right: 1px solid #807b47;" class="col-6 fator-unico">
-									<a target="_blank" href=""><img class="tamanho-logoss hvr-wobble-vertical" src="img/icones/se1.svg"></a>
-									<h5 class="ghj">A sinalização de veículos é uma ótima maneira de promover  sua marca, a partir de sua exposição.</h5>
-								</div>
-
-								<div class="col-6 fator-unico">
-									<a target="_blank" href=""><img class="tamanho-logoss hvr-wobble-vertical" src="img/icones/se4.svg"></a>
-									<h5 class="ghj">Além de personalizar a sua frota, o envelopamento protege a pintura original do seu veículo.</h5>
-								</div>
-
-
-
-								<div style="border-right: 1px solid #807b47;"  class="col-6 fator-unico">
-									<a target="_blank" href=""><img class="tamanho-logoss hvr-wobble-vertical" src="img/icones/se2.svg"></a>
-									<h5 class="ghj">A frota caracterizada auxilia na identificação das  empresas prestadoras e dos funcionários, transmitindo maior segurança.</h5>
-								</div>
-
-								
-								<div style="border-right: none;"  class="col-6 fator-unico">
-									<a target="_blank" href=""><img class="tamanho-logoss hvr-wobble-vertical" src="img/icones/se3.svg"></a>
-									<h5 class="ghj">A caracterização de frotas contribui para coibir o roubo de veículos, dificultando seu trânsito e facilitando o resgate do mesmo. </h5>
-								</div>
-								
-							</div>
+					<div class="col-12">
+						<div style="margin-bottom: 0px;" class="section-title text-center">
+							<span class="c-line-llnn" style="transform: matrix(1, 0, 0, 1, 0, 0);font-size: 4.8rem;    width: 10.3125rem;"></span><h2 style="color: #3e3e3e; font-size: 4.8rem;">porque personalizar <br>a <b class="strok">sua frota </b><br><b style="font-size: 4.8rem;" class="titulo-grande"></b> </h2> <br>
 						</div>
-						
 					</div>
-				</section>
+
+					<section style="width: 100%; " class="area-branca">
+						<div class="container">
+							<div style="padding-bottom: 2rem;padding-top: 2rem;" class="area-caixa">
+								<div style="margin: 0;" class="row align-items-center circle">
+
+									<div style="border-right: 1px solid #807b47;" class="col-6 fator-unico">
+										<a target="_blank" href=""><img class="tamanho-logoss hvr-wobble-vertical" src="img/icones/se1.svg"></a>
+										<h5 class="ghj">A sinalização de veículos é uma ótima maneira de promover  sua marca, a partir de sua exposição.</h5>
+									</div>
+
+									<div class="col-6 fator-unico">
+										<a target="_blank" href=""><img class="tamanho-logoss hvr-wobble-vertical" src="img/icones/se4.svg"></a>
+										<h5 class="ghj">Além de personalizar a sua frota, o envelopamento protege a pintura original do seu veículo.</h5>
+									</div>
+
+
+
+									<div style="border-right: 1px solid #807b47;"  class="col-6 fator-unico">
+										<a target="_blank" href=""><img class="tamanho-logoss hvr-wobble-vertical" src="img/icones/se2.svg"></a>
+										<h5 class="ghj">A frota caracterizada auxilia na identificação das  empresas prestadoras e dos funcionários, transmitindo maior segurança.</h5>
+									</div>
+
+
+									<div style="border-right: none;"  class="col-6 fator-unico">
+										<a target="_blank" href=""><img class="tamanho-logoss hvr-wobble-vertical" src="img/icones/se3.svg"></a>
+										<h5 class="ghj">A caracterização de frotas contribui para coibir o roubo de veículos, dificultando seu trânsito e facilitando o resgate do mesmo. </h5>
+									</div>
+
+								</div>
+							</div>
+
+						</div>
+					</section>
+				</div>
 			</div>
-		</div>
-	</section>
+		</section>
 
 
 
 
-	<section  id="sobre" class="caixa-vazia section-gap-top">
-		<div class="container">
-			<div style="margin: 0;" class="row d-flex justify-content-center">
+		<section  id="sobre" class="caixa-vazia section-gap-top">
+			<div class="container">
+				<div style="margin: 0;" class="row d-flex justify-content-center">
 
-				<div class="col-12">
-					<div class="section-title text-center">
-						<span class="c-linee-ln" style="transform: matrix(1, 0, 0, 1, 0, 0);"></span>
-						<h2 style="color: #3e3e3e;font-size: 4.8rem;">a<b class="strok"> sua frota</b>  <br><b style="font-size: 4.8rem;" class="titulo-grande">com seu estilo </b> </h2> <br>
-						<h4 class="hashtag"><b class="cor-hash">#</b>HYPECAR</h4>
+					<div class="col-12">
+						<div class="section-title text-center">
+							<span class="c-linee-ln" style="transform: matrix(1, 0, 0, 1, 0, 0);"></span>
+							<h2 style="color: #3e3e3e;font-size: 4.8rem;">a<b class="strok"> sua frota</b>  <br><b style="font-size: 4.8rem;" class="titulo-grande">com seu estilo </b> </h2> <br>
+							<h4 class="hashtag"><b class="cor-hash">#</b>HYPECAR</h4>
+						</div>
+					</div>
+
+					<div class="col-lg-12">
+						<div class="row">
+
+							<div class="col-12">
+								<div style="margin: 1rem 0rem; padding: 0;" class="col-12">
+									<img style="width:100%" src="https://images.squarespace-cdn.com/content/v1/58af4657be659461bb783b00/1582582521333-RDZA30DR24XXCTVNFBQT/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/TWI2.jpg?format=1500w" alt="">
+								</div>
+								<div class="row">
+									<div  class="col-4 p-2">
+										<img class="foto-qmsomos" style="width:100%" src="https://images.squarespace-cdn.com/content/v1/58af4657be659461bb783b00/1582581266360-L0WPO84I573FMZLTFNIA/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/TWI9.jpg" alt="">
+									</div>
+									<div class="col-4 p-2">
+										<img class="foto-qmsomos" style="width:100%" src="https://images.squarespace-cdn.com/content/v1/58af4657be659461bb783b00/1582581270173-Y0FWDVI6NRFPRI79CZX3/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/TWI14.jpg" alt="">
+									</div>
+									<div  class="col-4 p-2">
+										<img class="foto-qmsomos" style="width:100%" src="https://images.squarespace-cdn.com/content/v1/58af4657be659461bb783b00/1582581266360-L0WPO84I573FMZLTFNIA/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/TWI9.jpg" alt="">
+									</div>
+									<div class="col-4 p-2">
+										<img class="foto-qmsomos" style="width:100%" src="https://images.squarespace-cdn.com/content/v1/58af4657be659461bb783b00/1582581270173-Y0FWDVI6NRFPRI79CZX3/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/TWI14.jpg" alt="">
+									</div>
+									<div  class="col-4 p-2">
+										<img class="foto-qmsomos" style="width:100%" src="https://images.squarespace-cdn.com/content/v1/58af4657be659461bb783b00/1582581266360-L0WPO84I573FMZLTFNIA/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/TWI9.jpg" alt="">
+									</div>
+									<div class="col-4 p-2">
+										<img class="foto-qmsomos" style="width:100%" src="https://images.squarespace-cdn.com/content/v1/58af4657be659461bb783b00/1582581270173-Y0FWDVI6NRFPRI79CZX3/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/TWI14.jpg" alt="">
+									</div>
+								</div></div>
+
+							</div>
+
+						</div>
+
+
 					</div>
 				</div>
+			</section>
 
-				<div class="col-lg-12">
-					<div class="row">
+
+
+
+
+
+
+			<section  style="background: #f9f9f9; margin-top: 4rem;padding-bottom: 5rem;" id="sobre" class="caixa-vazia section-gap-top">
+				<div class="container">
+					<div style="margin: 0;" class="row d-flex justify-content-center">
 
 						<div class="col-12">
-							<div style="margin: 1rem 0rem; padding: 0;" class="col-12">
-								<img style="width:100%" src="https://images.squarespace-cdn.com/content/v1/58af4657be659461bb783b00/1582582521333-RDZA30DR24XXCTVNFBQT/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/TWI2.jpg?format=1500w" alt="">
+							<div style="margin-bottom: 0px;" class="section-title text-center">
+								<span class="c-line-llnn" style="transform: matrix(1, 0, 0, 1, 0, 0);font-size: 4.8rem;"></span><h2 style="color: #3e3e3e; font-size: 4.8rem;"><b class="strok">referências  </b>em<br><b style="font-size: 4.8rem;" class="titulo-grande">caracterização</b> </h2> <br>
 							</div>
-							<div class="row">
-							<div  class="col-4 p-2">
-								<img class="foto-qmsomos" style="width:100%" src="https://images.squarespace-cdn.com/content/v1/58af4657be659461bb783b00/1582581266360-L0WPO84I573FMZLTFNIA/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/TWI9.jpg" alt="">
-							</div>
-							<div class="col-4 p-2">
-								<img class="foto-qmsomos" style="width:100%" src="https://images.squarespace-cdn.com/content/v1/58af4657be659461bb783b00/1582581270173-Y0FWDVI6NRFPRI79CZX3/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/TWI14.jpg" alt="">
-							</div>
-							<div  class="col-4 p-2">
-								<img class="foto-qmsomos" style="width:100%" src="https://images.squarespace-cdn.com/content/v1/58af4657be659461bb783b00/1582581266360-L0WPO84I573FMZLTFNIA/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/TWI9.jpg" alt="">
-							</div>
-							<div class="col-4 p-2">
-								<img class="foto-qmsomos" style="width:100%" src="https://images.squarespace-cdn.com/content/v1/58af4657be659461bb783b00/1582581270173-Y0FWDVI6NRFPRI79CZX3/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/TWI14.jpg" alt="">
-							</div>
-							<div  class="col-4 p-2">
-								<img class="foto-qmsomos" style="width:100%" src="https://images.squarespace-cdn.com/content/v1/58af4657be659461bb783b00/1582581266360-L0WPO84I573FMZLTFNIA/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/TWI9.jpg" alt="">
-							</div>
-							<div class="col-4 p-2">
-								<img class="foto-qmsomos" style="width:100%" src="https://images.squarespace-cdn.com/content/v1/58af4657be659461bb783b00/1582581270173-Y0FWDVI6NRFPRI79CZX3/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/TWI14.jpg" alt="">
-							</div>
-						</div></div>
+						</div>
+						<div class="col-8">
+							<div style=" text-align: center;" class="section-title ">
+								<p>A Art Attack P.D. trouxe um conceito inovador para o mercado frotista a partir das melhores referências e marcas do mercado mundial.<br><br>
 
-					</div>
-
-					</div>
-				
-
-			</div>
-		</div>
-	</section>
-
-
-
-
-
-
-
-	<section  style="background: #f9f9f9; margin-top: 4rem;padding-bottom: 5rem;" id="sobre" class="caixa-vazia section-gap-top">
-		<div class="container">
-			<div style="margin: 0;" class="row d-flex justify-content-center">
-
-				<div class="col-12">
-					<div style="margin-bottom: 0px;" class="section-title text-center">
-						<span class="c-line-llnn" style="transform: matrix(1, 0, 0, 1, 0, 0);font-size: 4.8rem;"></span><h2 style="color: #3e3e3e; font-size: 4.8rem;"><b class="strok">referências  </b>em<br><b style="font-size: 4.8rem;" class="titulo-grande">caracterização</b> </h2> <br>
-					</div>
-				</div>
-				<div class="col-8">
-					<div style=" text-align: center;" class="section-title ">
-						<p>A Art Attack P.D. trouxe um conceito inovador para o mercado frotista a partir das melhores referências e marcas do mercado mundial.<br><br>
-
-						</p>
-					</div>
-				</div>
-
-				<section style="width: 100%;" class="area-branca">
-					<div class="container">
-						<div class="area-caixa">
-							<div style="margin: 0;" class="row align-items-center circle">
-								<div class="col fator-unicoo">
-									<a target="_blank" href=""><img class="tamanho-logos hvr-wobble-vertical" src="http://artattackpd.com.br/storage/app/media/centros-referencia/logo-Orafol.png"></a>
-									<h3>Orafol</h3>
-								</div>
-								<div class="col fator-unicoo">
-									<a target="_blank" href=""><img class="tamanho-logos hvr-wobble-vertical" src="http://artattackpd.com.br/storage/app/media/centros-referencia/DM-Reflective-v2.png"></a><h3>DM Reflective</h3>
-								</div>
-								<div class="col fator-unicoo">
-									<a target="_blank" href=""><img class="tamanho-logos hvr-wobble-vertical" src="http://artattackpd.com.br/storage/app/media/centros-referencia/logo-Hexis.png"></a><h3>Hexis</h3>
-								</div>
-								<div class="col fator-unicoo">
-									<a target="_blank" href=""><img class="tamanho-logos hvr-wobble-vertical" src="http://artattackpd.com.br/storage/app/media/centros-referencia/Logo-Avery-Dennison.png"></a><h3>Avery Dennison</h3>
-								</div>
+								</p>
 							</div>
 						</div>
 
-					</div>
-				</section>
+						<section style="width: 100%;" class="area-branca">
 
 
 
-			</div>
+							<!--Carousel Wrapper-->
+							<div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
 
-		</div>
-	</div>
-</div>
-</div>
-</section>
+								<!--Controls-->
 
+								<!--/.Controls-->
 
+								<!--Indicators-->
 
+								<!--/.Indicators-->
 
+								<!--Slides-->
+								<div class="carousel-inner" role="listbox">
 
+									<!--First slide-->
+									<div class="carousel-item active">
 
+										<div class="col-md-3" style="float:left">
+											<div class="card mb-2">
+												<img class="card-img-top"
+												src="img/certificado1.jpg" alt="Card image cap">
+												<div class="card-body">
+													<p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+														card's content.</p>
+													</div>
+													<img class="card-img-top" src="img/logo-cerfitificado-1.jpg" >
+												</div>
+											</div>
 
-
-
-	<footer class="container-fluid bg-grey py-5 rodape">
-<div class="container">
-   <div class="row">
-      <div class="col-md-5">
-         <div class="row">
-            <div class="col-md-12 ">
-               <div class="logo-part">
-                  
-                  <p class="text-center"> <a href="index.html">
-                  	<img class="hvr-wobble-vertical" style="width: 18rem;" src="img/logo.svg" alt="" title="" /></a> <br> <br> 
-
-            <i style="color: #eb008b;font-size: 1.6rem;" class="fa fa-map-marker cs "></i>
-<b style=" font-weight: 100; color: #969696">Rua Rodovalho Júnior, 475 - Penha de França - SP </b><br><br>
-
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.3029048682697!2d-46.55229068447653!3d-23.521605466011632!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce642e7d5c1d47%3A0x30376f5fab9c7992!2sArt%20Attack%20Propaganda%20e%20Designer!5e0!3m2!1spt-BR!2sbr!4v1586865257235!5m2!1spt-BR!2sbr" width="100%" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></p>
-               </div>
-            </div>
-         </div>
-      </div>
-
-      <div class="col-md-7">
-        
-         	<div class="col-12"><br><br>
-         		 <div class="row d-flex justify-content-center">
-         	<div class="col-md-4">
-
-               <h3 class="contatos"> Telefone</h3><br>
-               <p class="contato-x">(11) 2523-3244</p>
-               <p class="contato-x">(11) 2289-1026</p>
-               
-            </div>
-            <div class="col-md-4">
-               <h3 class="contatos"> Whatsapp</h3><br>
-               <p class="contato-x">(11) 95047-8218</p>
-            </div>
-            <div class="col-md-4">
-               <h3 class="contatos"> E-mail</h3><br>
-               <p class="contato-x">contato@artattackpd.com.br</p>
-            </div>
-            </div>
-            <br>
-         </div>
-
-
-	<div class="col-12">
-      <hr style="width:100%;    width: 100%;
-    border-top: 1px solid rgba(107, 107, 107, 0.5);">
-     </div>
-     <br>
-
-
-<div class="col-12">
-     
-          <h3 class="contatos"> Links</h3><br>
-    
-
-     <div class="row">
-
-     <div class="col-3">
-           <a href="index.php"><p class="contato-x">Home</p></a>
-      </div>
-      <div class="col-3">
-          <a href="index.php"><p class="contato-x">Quem somos</p></a>
-       </div>
-       <div class="col-3">
-          <a href="index.php"><p class="contato-x">Serviços</p></a>
-        </div>
-
-         <div class="col-3">
-          <a href="index.php"><p class="contato-x">Contato</p></a>
-         </div>
-
-        </div>
-     
-
-      </div>
-  </div>
+											<div class="col-md-3" style="float:left">
+											<div class="card mb-2">
+												<img class="card-img-top"
+												src="img/certificado2.jpg" alt="Card image cap">
+												<div class="card-body">
+													<p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+														card's content.</p>
+													</div>
+													<img class="card-img-top" src="img/logo-cerfitificado-2.jpg" >
+												</div>
+											</div>
 
 
 
-   </div>
-</div>
-</footer>
+											<div class="col-md-3" style="float:left">
+											<div class="card mb-2">
+												<img class="card-img-top"
+												src="img/certificado3.jpg" alt="Card image cap">
+												<div class="card-body">
+													<p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+														card's content.</p>
+													</div>
+													<img class="card-img-top" src="img/logo-cerfitificado-3.jpg" >
+												</div>
+											</div>
+												
+
+
+												<div class="col-md-3" style="float:left">
+											<div class="card mb-2">
+												<img class="card-img-top"
+												src="img/certificado4.jpg" alt="Card image cap">
+												<div class="card-body">
+													<p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+														card's content.</p>
+													</div>
+													<img class="card-img-top" src="img/logo-cerfitificado-4.jpg" >
+												</div>
+											</div>
+
+
+											</div>
+											<!--/.First slide-->
+
+											<!--Second slide-->
+											<div class="carousel-item">
+
+
+							
+											<div class="col-md-3" style="float:left">
+											<div class="card mb-2">
+												<img class="card-img-top"
+												src="img/certificado1.jpg" alt="Card image cap">
+												<div class="card-body">
+													<p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+														card's content.</p>
+													</div>
+													<img class="card-img-top" src="img/logo-cerfitificado-1.jpg" >
+												</div>
+											</div>
+
+											<div class="col-md-3" style="float:left">
+											<div class="card mb-2">
+												<img class="card-img-top"
+												src="img/certificado2.jpg" alt="Card image cap">
+												<div class="card-body">
+													<p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+														card's content.</p>
+													</div>
+													<img class="card-img-top" src="img/logo-cerfitificado-2.jpg" >
+												</div>
+											</div>
 
 
 
-<script>
-	$(function () {
-  $(document).scroll(function () {
-	  var $nav = $(".navbar-fixed-top");
-	  $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
-	});
+											<div class="col-md-3" style="float:left">
+											<div class="card mb-2">
+												<img class="card-img-top"
+												src="img/certificado3.jpg" alt="Card image cap">
+												<div class="card-body">
+													<p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+														card's content.</p>
+													</div>
+													<img class="card-img-top" src="img/logo-cerfitificado-3.jpg" >
+												</div>
+											</div>
+												
 
-  $(document).scroll(function () {
-	  var $nav = $(".logo");
-	  $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
-	});
 
-});
-</script>
-<script>
+												<div class="col-md-3" style="float:left">
+											<div class="card mb-2">
+												<img class="card-img-top"
+												src="img/certificado4.jpg" alt="Card image cap">
+												<div class="card-body">
+													<p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+														card's content.</p>
+													</div>
+													<img class="card-img-top" src="img/logo-cerfitificado-4.jpg" >
+												</div>
+											</div>
 
-$(function () { 
-    $(window).scroll(function () {
-        if ($(this).scrollTop() > 100) { 
-            $('.navbar .navbar-brand img').attr('src','img/logo2.svg');
-        }
-        if ($(this).scrollTop() < 100) { 
-            $('.navbar .navbar-brand img').attr('src','img/logo.svg');
-        }
-    })
-});
-</script>
+
+
+													</div>
+													<!--/.Second slide-->
+
+
+
+
+
+												</div>
+												<!--/.Slides-->
+
+												<div class="controls-top d-flex justify-content-center">
+													<a class="btn-floating" href="#multi-item-example" data-slide="prev">
+														<i class="fas fa-angle-left"></i>
+													</a>
+													<a class="btn-floating" href="#multi-item-example" data-slide="next"><i
+														<i class="fas fa-angle-right"></i>
+													</div>
+
+												</div>
+												<!--/.Carousel Wrapper-->
+
+
+
+
+											</section>
+
+
+
+										</div>
+
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+
+
+
+
+
+
+
+
+
+					<footer class="container-fluid bg-grey py-5 rodape">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-5">
+									<div class="row">
+										<div class="col-md-12 ">
+											<div class="logo-part">
+
+												<p class="text-center"> <a href="index.html">
+													<img class="hvr-wobble-vertical" style="width: 18rem;" src="img/logo.svg" alt="" title="" /></a> <br> <br> 
+
+													<i style="color: #eb008b;font-size: 1.6rem;" class="fa fa-map-marker cs "></i>
+													<b style=" font-weight: 100; color: #969696">Rua Rodovalho Júnior, 475 - Penha de França - SP </b><br><br>
+
+													<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.3029048682697!2d-46.55229068447653!3d-23.521605466011632!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce642e7d5c1d47%3A0x30376f5fab9c7992!2sArt%20Attack%20Propaganda%20e%20Designer!5e0!3m2!1spt-BR!2sbr!4v1586865257235!5m2!1spt-BR!2sbr" width="100%" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></p>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="col-md-7">
+
+										<div class="col-12"><br><br>
+											<div class="row d-flex justify-content-center">
+												<div class="col-md-4">
+
+													<h3 class="contatos"> Telefone</h3><br>
+													<p class="contato-x">(11) 2523-3244</p>
+													<p class="contato-x">(11) 2289-1026</p>
+
+												</div>
+												<div class="col-md-4">
+													<h3 class="contatos"> Whatsapp</h3><br>
+													<p class="contato-x">(11) 95047-8218</p>
+												</div>
+												<div class="col-md-4">
+													<h3 class="contatos"> E-mail</h3><br>
+													<p class="contato-x">contato@artattackpd.com.br</p>
+												</div>
+											</div>
+											<br>
+										</div>
+
+
+										<div class="col-12">
+											<hr style="width:100%;    width: 100%;
+											border-top: 1px solid rgba(107, 107, 107, 0.5);">
+										</div>
+										<br>
+
+
+										<div class="col-12">
+
+											<h3 class="contatos"> Links</h3><br>
+
+
+											<div class="row">
+
+												<div class="col-3">
+													<a href="index.php"><p class="contato-x">Home</p></a>
+												</div>
+												<div class="col-3">
+													<a href="index.php"><p class="contato-x">Quem somos</p></a>
+												</div>
+												<div class="col-3">
+													<a href="index.php"><p class="contato-x">Serviços</p></a>
+												</div>
+
+												<div class="col-3">
+													<a href="index.php"><p class="contato-x">Contato</p></a>
+												</div>
+
+											</div>
+
+
+										</div>
+									</div>
+
+
+
+								</div>
+							</div>
+						</footer>
+
+
+
+						<script>
+						$(function () {
+							$(document).scroll(function () {
+								var $nav = $(".navbar-fixed-top");
+								$nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+							});
+
+							$(document).scroll(function () {
+								var $nav = $(".logo");
+								$nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+							});
+
+						});
+						</script>
+						<script>
+
+						$(function () { 
+							$(window).scroll(function () {
+								if ($(this).scrollTop() > 100) { 
+									$('.navbar .navbar-brand img').attr('src','img/logo2.svg');
+								}
+								if ($(this).scrollTop() < 100) { 
+									$('.navbar .navbar-brand img').attr('src','img/logo.svg');
+								}
+							})
+						});
+						</script>
 
 
 <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[1]='FNAME';ftypes[1]='text';fnames[0]='EMAIL';ftypes[0]='email';fnames[4]='PHONE';ftypes[4]='phone';fnames[3]='MMERGE3';ftypes[3]='text';fnames[2]='MMERGE2';ftypes[2]='url'; /**
  * Translated default messages for the $ validation plugin.
  * Locale: PT_PT
  */
-$.extend($.validator.messages, {
-	required: "Campo de preenchimento obrigat&oacute;rio.",
-	remote: "Por favor, corrija este campo.",
-	email: "Por favor, introduza um endere&ccedil;o eletr&oacute;nico v&aacute;lido.",
-	url: "Por favor, introduza um URL v&aacute;lido.",
-	date: "Por favor, introduza uma data v&aacute;lida.",
-	dateISO: "Por favor, introduza uma data v&aacute;lida (ISO).",
-	number: "Por favor, introduza um n&uacute;mero v&aacute;lido.",
-	digits: "Por favor, introduza apenas d&iacute;gitos.",
-	creditcard: "Por favor, introduza um n&uacute;mero de cart&atilde;o de cr&eacute;dito v&aacute;lido.",
-	equalTo: "Por favor, introduza de novo o mesmo valor.",
-	accept: "Por favor, introduza um ficheiro com uma extens&atilde;o v&aacute;lida.",
-	maxlength: $.validator.format("Por favor, n&atilde;o introduza mais do que {0} caracteres."),
-	minlength: $.validator.format("Por favor, introduza pelo menos {0} caracteres."),
-	rangelength: $.validator.format("Por favor, introduza entre {0} e {1} caracteres."),
-	range: $.validator.format("Por favor, introduza um valor entre {0} e {1}."),
-	max: $.validator.format("Por favor, introduza um valor menor ou igual a {0}."),
-	min: $.validator.format("Por favor, introduza um valor maior ou igual a {0}.")
-});}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+ $.extend($.validator.messages, {
+ 	required: "Campo de preenchimento obrigat&oacute;rio.",
+ 	remote: "Por favor, corrija este campo.",
+ 	email: "Por favor, introduza um endere&ccedil;o eletr&oacute;nico v&aacute;lido.",
+ 	url: "Por favor, introduza um URL v&aacute;lido.",
+ 	date: "Por favor, introduza uma data v&aacute;lida.",
+ 	dateISO: "Por favor, introduza uma data v&aacute;lida (ISO).",
+ 	number: "Por favor, introduza um n&uacute;mero v&aacute;lido.",
+ 	digits: "Por favor, introduza apenas d&iacute;gitos.",
+ 	creditcard: "Por favor, introduza um n&uacute;mero de cart&atilde;o de cr&eacute;dito v&aacute;lido.",
+ 	equalTo: "Por favor, introduza de novo o mesmo valor.",
+ 	accept: "Por favor, introduza um ficheiro com uma extens&atilde;o v&aacute;lida.",
+ 	maxlength: $.validator.format("Por favor, n&atilde;o introduza mais do que {0} caracteres."),
+ 	minlength: $.validator.format("Por favor, introduza pelo menos {0} caracteres."),
+ 	rangelength: $.validator.format("Por favor, introduza entre {0} e {1} caracteres."),
+ 	range: $.validator.format("Por favor, introduza um valor entre {0} e {1}."),
+ 	max: $.validator.format("Por favor, introduza um valor menor ou igual a {0}."),
+ 	min: $.validator.format("Por favor, introduza um valor maior ou igual a {0}.")
+ });}(jQuery));var $mcj = jQuery.noConflict(true);</script>
 
-	<script src="js/tilt.jquery.min.js"></script>
-	<script src="js/vendor/bootstrap.min.js"></script>
-	<script src="js/superfish.min.js"></script>
-	<script src="js/jquery.magnific-popup.min.js"></script>
-	<script src="js/main.js"></script>
+ <script src="js/tilt.jquery.min.js"></script>
+ <script src="js/vendor/bootstrap.min.js"></script>
+ <script src="js/superfish.min.js"></script>
+ <script src="js/jquery.magnific-popup.min.js"></script>
+ <script src="js/main.js"></script>
 </body>
 
 </html>
